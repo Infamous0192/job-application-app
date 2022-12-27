@@ -1,0 +1,80 @@
+@inject Services.IUserService UserService
+@inject IAlertService AlertService
+@inject NavigationManager navManager
+@inject JobApplication.Client.Shared.PageHistoryState PageHistoryState
+
+<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="login-label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header bg-theme1">
+        <h5 class="modal-title" id="login-label">Login</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <EditForm Model="@loginModel" OnValidSubmit="OnValidSubmit">
+          <DataAnnotationsValidator />
+          <div class="form-group">
+            <label for="username" class="col-form-label">Username</label>
+            <InputText @bind-Value="loginModel.Username" id="username" class="form-control" />
+            <ValidationMessage For="@(() => loginModel.Username)" />
+          </div>
+          <div class="form-group">
+            <InputText @bind-Value="loginModel.Password" type="password" id="password" class="form-control" />
+            <ValidationMessage For="@(() => loginModel.Password)" />
+          </div>
+          <div class="sub-w3l">
+            <div class="sub-w3ltd">
+              <input type="checkbox" id="brand2" value="">
+              <label for="brand2" class="mb-3 text-dark">
+                <span></span>I Accept to the Terms & Conditions</label>
+            </div>
+          </div>
+          <div class="right-w3l">
+            <input type="submit" class="form-control bg-theme" value="Register">
+          </div>
+        </EditForm>
+      </div>
+    </div>
+  </div>
+</div>
+
+@code {
+  private JobApplication.Shared.Data.LoginForm loginModel = new JobApplication.Shared.Data.LoginForm();
+  private bool loading;
+
+  private async void OnValidSubmit()
+  {
+    // reset alerts on submit
+    AlertService.Clear();
+
+    loading = true;
+    try
+    {
+      await UserService.Login(loginModel);
+      var returnUrl = navManager.QueryString("returnUrl") ?? "";
+      if (returnUrl != string.Empty)
+      {
+        navManager.NavigateTo(returnUrl);
+      }
+      else
+      {
+        if (PageHistoryState.CanGoBack())
+        {
+          navManager.NavigateTo(PageHistoryState.GetGoBackPage());
+        }
+        else
+        {
+          navManager.NavigateTo("/user/1");
+        }
+      }
+    }
+    catch (Exception ex)
+    {
+      AlertService.Error(ex.Message);
+      loading = false;
+      StateHasChanged();
+    }
+  }
+}

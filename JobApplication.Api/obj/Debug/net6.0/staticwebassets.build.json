@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "QkI1Mjxfe5F929sjXHe6Q3+K1Cd9bjjYshGXOiuFAsM=",
+  "Source": "JobApplication.Api",
+  "BasePath": "_content/JobApplication.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

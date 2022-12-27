@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "JobApplication.Client/1.0.0": {
+        "dependencies": {
+          "JobApplication.Shared": "1.0.0"
+        },
+        "runtime": {
+          "JobApplication.Client.dll": {}
+        }
+      },
+      "JobApplication.Shared/1.0.0": {
+        "runtime": {
+          "JobApplication.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "JobApplication.Client/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "JobApplication.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

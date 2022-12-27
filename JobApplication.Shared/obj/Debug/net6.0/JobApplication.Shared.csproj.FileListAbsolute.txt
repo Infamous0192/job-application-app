@@ -1,0 +1,12 @@
+C:\Project\dotnet\JobApplication\JobApplication.Shared\bin\Debug\net6.0\JobApplication.Shared.deps.json
+C:\Project\dotnet\JobApplication\JobApplication.Shared\bin\Debug\net6.0\JobApplication.Shared.dll
+C:\Project\dotnet\JobApplication\JobApplication.Shared\bin\Debug\net6.0\JobApplication.Shared.pdb
+C:\Project\dotnet\JobApplication\JobApplication.Shared\obj\Debug\net6.0\JobApplication.Shared.csproj.AssemblyReference.cache
+C:\Project\dotnet\JobApplication\JobApplication.Shared\obj\Debug\net6.0\JobApplication.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Project\dotnet\JobApplication\JobApplication.Shared\obj\Debug\net6.0\JobApplication.Shared.AssemblyInfoInputs.cache
+C:\Project\dotnet\JobApplication\JobApplication.Shared\obj\Debug\net6.0\JobApplication.Shared.AssemblyInfo.cs
+C:\Project\dotnet\JobApplication\JobApplication.Shared\obj\Debug\net6.0\JobApplication.Shared.csproj.CoreCompileInputs.cache
+C:\Project\dotnet\JobApplication\JobApplication.Shared\obj\Debug\net6.0\JobApplication.Shared.dll
+C:\Project\dotnet\JobApplication\JobApplication.Shared\obj\Debug\net6.0\refint\JobApplication.Shared.dll
+C:\Project\dotnet\JobApplication\JobApplication.Shared\obj\Debug\net6.0\JobApplication.Shared.pdb
+C:\Project\dotnet\JobApplication\JobApplication.Shared\obj\Debug\net6.0\ref\JobApplication.Shared.dll

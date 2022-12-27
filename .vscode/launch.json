@@ -1,0 +1,65 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": ".NET Core Launch (api)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/JobApplication.Api/bin/Debug/net6.0/JobApplication.Api.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/JobApplication.Api",
+      "stopAtEntry": false,
+      "serverReadyAction": {
+        "action": "openExternally",
+        "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+      },
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_URLS": "http://localhost:3000"
+      }
+    },
+    {
+      "name": ".NET Core Launch (client)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/JobApplication.Client/bin/Debug/net6.0/JobApplication.Client.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/JobApplication.Client",
+      "stopAtEntry": false,
+      "serverReadyAction": {
+        "action": "openExternally",
+        "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+      },
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_URLS": "http://localhost:3001"
+      },
+      "sourceFileMap": {
+        "/Views": "${workspaceFolder}/JobApplication.Client/Views"
+      }
+    },
+    {
+      "name": ".NET Core Launch (admin)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/JobApplication.Admin/bin/Debug/net6.0/JobApplication.Admin.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/JobApplication.Admin",
+      "stopAtEntry": false,
+      "serverReadyAction": {
+        "action": "openExternally",
+        "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+      },
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_URLS": "http://localhost:3002"
+      },
+      "sourceFileMap": {
+        "/Views": "${workspaceFolder}/JobApplication.Admin/Views"
+      }
+    }
+  ]
+}

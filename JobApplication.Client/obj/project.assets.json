@@ -1,0 +1,92 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "JobApplication.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/JobApplication.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/JobApplication.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "JobApplication.Shared/1.0.0": {
+      "type": "project",
+      "path": "../JobApplication.Shared/JobApplication.Shared.csproj",
+      "msbuildProject": "../JobApplication.Shared/JobApplication.Shared.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "JobApplication.Shared >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Meiza\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Project\\dotnet\\JobApplication\\JobApplication.Client\\JobApplication.Client.csproj",
+      "projectName": "JobApplication.Client",
+      "projectPath": "C:\\Project\\dotnet\\JobApplication\\JobApplication.Client\\JobApplication.Client.csproj",
+      "packagesPath": "C:\\Users\\Meiza\\.nuget\\packages\\",
+      "outputPath": "C:\\Project\\dotnet\\JobApplication\\JobApplication.Client\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Meiza\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Project\\dotnet\\JobApplication\\JobApplication.Shared\\JobApplication.Shared.csproj": {
+              "projectPath": "C:\\Project\\dotnet\\JobApplication\\JobApplication.Shared\\JobApplication.Shared.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

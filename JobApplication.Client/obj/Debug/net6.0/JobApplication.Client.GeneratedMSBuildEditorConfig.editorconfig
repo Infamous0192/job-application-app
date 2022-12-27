@@ -1,0 +1,92 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = JobApplication.Client
+build_property.RootNamespace = JobApplication.Client
+build_property.ProjectDir = c:\Project\dotnet\JobApplication\JobApplication.Client\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = c:\Project\dotnet\JobApplication\JobApplication.Client
+build_property._RazorSourceGeneratorDebug = 
+
+[c:/Project/dotnet/JobApplication/JobApplication.Client/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Project/dotnet/JobApplication/JobApplication.Client/Pages/About.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Project/dotnet/JobApplication/JobApplication.Client/Pages/Contact.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Project/dotnet/JobApplication/JobApplication.Client/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Project/dotnet/JobApplication/JobApplication.Client/Pages/Job.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSm9iLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Project/dotnet/JobApplication/JobApplication.Client/Pages/Jobs.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSm9icy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Project/dotnet/JobApplication/JobApplication.Client/Shared/Alert.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEFsZXJ0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Project/dotnet/JobApplication/JobApplication.Client/Shared/LoginnForm.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2lubkZvcm0ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Project/dotnet/JobApplication/JobApplication.Client/Shared/RegisterForm.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFJlZ2lzdGVyRm9ybS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Project/dotnet/JobApplication/JobApplication.Client/Shared/SignInForm.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFNpZ25JbkZvcm0ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Project/dotnet/JobApplication/JobApplication.Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Project/dotnet/JobApplication/JobApplication.Client/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-au1gip53ub
+
+[c:/Project/dotnet/JobApplication/JobApplication.Client/Pages/AdminLandingPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5MYW5kaW5nUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Project/dotnet/JobApplication/JobApplication.Client/Pages/admin/AdminLandingPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRtaW5cQWRtaW5MYW5kaW5nUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Project/dotnet/JobApplication/JobApplication.Client/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Project/dotnet/JobApplication/JobApplication.Client/Pages/perusahaan/PerusahaanLandingPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNccGVydXNhaGFhblxQZXJ1c2FoYWFuTGFuZGluZ1BhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Project/dotnet/JobApplication/JobApplication.Client/Pages/perusahaan/PerusahaanProfil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNccGVydXNhaGFhblxQZXJ1c2FoYWFuUHJvZmlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Project/dotnet/JobApplication/JobApplication.Client/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Project/dotnet/JobApplication/JobApplication.Client/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
